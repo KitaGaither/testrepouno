@@ -24,3 +24,15 @@ html {
 a {
     color: black;
 }
+
+a:visited {
+    color: gray;
+  }
+
+  a:hover {
+    color: pink;
+  }
+
+  a:active {
+    color: white;
+  }
