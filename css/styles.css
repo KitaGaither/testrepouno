@@ -1,5 +1,34 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1550895030-823330fc2551?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80.jpg);
+    background-size: cover;
+}
+    
+.jumbotron {
+    background: linear-gradient(110.3deg, rgb(238, 179, 123) 8.7%, rgb(216, 103, 77) 47.5%, rgb(114, 43, 54) 89.1%)!important;
+}
+
 #title {
     text-align: center;
+    color: white;
+}
+
+.progress-p {
+    color: brown;
+    text-align: center;
+    font-size: 40px;
+}
+
+h1, .p-title {
+    color: white;
+}
+
+h6 {
+    color: white;
+}
+
+h2 {
+    margin: auto;
+    color: brown;
 }
 
 html {
@@ -15,24 +44,47 @@ html {
 
 .main-sections {
     text-align: center;
+    font-family: lobster;
+    color: rgb(230, 139, 20);
+    font-size: 75px;
 }
 
-.navbar {
-    
-    
-}
 a {
+    text-decoration: none;
     color: black;
 }
 
+a:link {
+    color: brown;
+}
+
 a:visited {
-    color: gray;
-  }
+    color: brown;
+}
 
-  a:hover {
-    color: pink;
-  }
+a:hover {
+    color: brown;
+}
 
-  a:active {
-    color: white;
-  }
+a:active {
+    color: brown;
+}
+
+.img {
+    display: block;
+    margin: auto;
+    height: 70%;
+    width: 20%;
+}
+
+.footer {
+    background: linear-gradient(110.3deg, rgb(238, 179, 123) 8.7%, rgb(216, 103, 77) 47.5%, rgb(114, 43, 54) 89.1%)!important;
+    margin: auto;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-text {
+    padding-top: 50px;
+}
