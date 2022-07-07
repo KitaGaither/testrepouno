@@ -1,6 +1,9 @@
-body {
+/*body {
     background-image: url(https://images.unsplash.com/photo-1550895030-823330fc2551?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80.jpg);
     background-size: cover;
+}*/
+body {
+    background-color: papayawhip;
 }
     
 .jumbotron {
@@ -13,7 +16,7 @@ body {
 }
 
 .progress-p {
-    color: brown;
+    color: brorgb(216, 103, 77)wn;
     text-align: center;
     font-size: 40px;
 }
@@ -31,6 +34,12 @@ h2 {
     color: brown;
 }
 
+p {
+    color: rgb(216, 103, 77);
+    text-align: center;
+    font-size: 15px;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -45,7 +54,7 @@ html {
 .main-sections {
     text-align: center;
     font-family: lobster;
-    color: rgb(230, 139, 20);
+    color: brown;
     font-size: 75px;
 }
 
@@ -87,4 +96,13 @@ a:active {
 
 .footer-text {
     padding-top: 50px;
+}
+
+.form {
+    display: block;
+    margin: auto;
+    align-items: center;
+    background-color: rgb(216, 103, 77);
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
