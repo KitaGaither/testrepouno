@@ -1,10 +1,23 @@
-body {
-    background-color: peachpuff;
-}
 #title {
     text-align: center;
 }
 
 html {
     scroll-behavior: smooth;
+}
+
+.div-container {
+    height: 500px;
+    width: 100%;
+    margin-top: 50px;
+    
+}
+
+.main-sections {
+    text-align: center;
+}
+
+.navbar {
+    
+    
 }
