@@ -104,3 +104,12 @@ a:active {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 100;
+    font-size: large;
+}

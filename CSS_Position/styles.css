@@ -1,0 +1,27 @@
+/* * Wild card character applies to everything */
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --blue: #1a9af6;
+    --purple: #bfb0ff;
+    --custom-cursor: url("https://emoji-uc.akamaized.net/orig/2b/e8d6ffcbb94883e25a7c14dbbb9055.png"), pointer;
+}
+
+#blue_border {
+    border: 1px solid var(--blue);
+    background-color: var(--blue);
+    height: 100px;
+    position: relative;
+    /* top: -100px; */
+    left: 5px;
+}
+
+#purple_border {
+    border: 1px solid var(--purple);
+    background-color: var(--purple);
+    height: 100px;
+    position: relative;
+    left: 50px;
+}
